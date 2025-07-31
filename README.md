@@ -92,7 +92,7 @@ pip install tqdm
 2. **Launch** the main simulation:
 
    ```bash
-   python sim/main.py
+   python scripts/main.py
    ```
 
 ---
