@@ -27,7 +27,7 @@ A modular Python framework for 3D obstacle-aware drone navigation using voxelize
 ---
 
 ## 📂 Repository Structure
-
+```
 aster-gridmap-co/
 ├── lidar/
 │   ├── parse_lidar.py          # loads .txt frames and creates occupancy grid
@@ -54,7 +54,7 @@ aster-gridmap-co/
 ├── notebooks/
 │   └── run_planner.ipynb       # Jupyter experiments (A* visualization)
 └── README.md                   # this file
-
+```
 ---
 
 ## ⚙️ Prerequisites
