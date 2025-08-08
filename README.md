@@ -1,10 +1,10 @@
-# 3d-path-planning
+# ASTAR-gridmap-co
 
 A modular Python framework for 3D obstacle-aware drone navigation using voxelized LiDAR data, A* path planning, and artificial-potential-field (APF) avoidance — with real-time visualization via Open3D.
 
 ---
 
-## 🚀 Features
+## Features
 
 - **LiDAR Ingestion & Voxelization**  
   Parse raw LiDAR `.txt` frames (KITTI format) into a 3D occupancy grid (`.npy`).
@@ -26,7 +26,7 @@ A modular Python framework for 3D obstacle-aware drone navigation using voxelize
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 ```
 aster-gridmap-co/
 ├── lidar/
@@ -57,14 +57,14 @@ aster-gridmap-co/
 ```
 ---
 
-## ⚙️ Prerequisites
+## Prerequisites
 
 - **Python 3.10** (3.11 has compatibility issues with Open3D/Scipy)  
 - [Miniconda](https://docs.conda.io/) or [Anaconda](https://www.anaconda.com/)
 
 ---
 
-## 🛠 Installation
+## Installation
 
 ```bash
 # create & activate environment
@@ -80,7 +80,7 @@ pip install tqdm
 
 ---
 
-## 🎮 Running the Simulation
+## Running the Simulation
 
 1. **Ensure** `lidar/occupancy_grid.npy` has been generated.
    If not, run:
@@ -97,7 +97,7 @@ pip install tqdm
 
 ---
 
-## 📊 Logging & Metrics
+## Logging & Metrics
 
 By default, `main.py` runs multiple episodes and writes `logs/simulation_metrics.csv` with:
 
@@ -108,7 +108,7 @@ Use this data to evaluate performance.
 
 ---
 
-## 🔮 Future Work
+## Future Work
 
 * **RRT**\* and **hybrid planners** for faster global planning
 * **Reinforcement-learning** policy for local navigation
