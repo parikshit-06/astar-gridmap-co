@@ -1,6 +1,6 @@
 # ASTAR-gridmap-co
 
-A modular Python framework for 3D obstacle-aware drone navigation using voxelized LiDAR data, A* path planning, and artificial-potential-field (APF) avoidance — with real-time visualization via Open3D.
+A modular Python framework for 3D obstacle-aware drone navigation using voxelized LiDAR data, A* path planning, and artificial-potential-field (APF) avoidance with real-time visualization via Open3D.
 
 ---
 
